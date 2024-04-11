@@ -26,12 +26,12 @@ $(call inherit-product, device/samsung/gta4xl/device.mk)
 TARGET_SCREEN_HEIGHT := 2000
 TARGET_SCREEN_WIDTH := 1200
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
+## Inherit some common derp stuff
+$(call inherit-product, vendor/derp/config/common_full_tablet.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := gta4xl
-PRODUCT_NAME := lineage_gta4xl
+PRODUCT_NAME := derp_gta4xl
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-P615
 PRODUCT_MANUFACTURER := samsung
